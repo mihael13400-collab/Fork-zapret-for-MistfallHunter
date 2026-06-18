@@ -730,18 +730,18 @@ for /f "usebackq delims=" %%A in ("%gameFlagFile%") do (
 if /i "%GameFilterMode%"=="all" (
     set "GameFilterStatus=enabled (TCP and UDP)"
     set "GameFilter=1024-65535"
-    set "GameFilterTCP=1024-12000,12002-65535"
-    set "GameFilterUDP=1024-19999,21001-65535"
+    set "GameFilterTCP=1024-65535"
+    set "GameFilterUDP=1024-65535"
 ) else if /i "%GameFilterMode%"=="tcp" (
     set "GameFilterStatus=enabled (TCP)"
     set "GameFilter=1024-65535"
-    set "GameFilterTCP=1024-12000,12002-65535"
+    set "GameFilterTCP=1024-65535"
     set "GameFilterUDP=12"
 ) else (
     set "GameFilterStatus=enabled (UDP)"
     set "GameFilter=1024-65535"
     set "GameFilterTCP=12"
-    set "GameFilterUDP=1024-19999,21001-65535"
+    set "GameFilterUDP=1024-65535"
 )
 exit /b
 
