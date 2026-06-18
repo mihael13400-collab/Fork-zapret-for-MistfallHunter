@@ -1,1 +1,5 @@
-# Fork-zapret-for-MistfallHunter
+Форк zapret для игры MistfallHunter
+
+Нужно запустить в ручную ручками файл general (ALT15).bat
+
+Может работать не во всех регионах Рф 
