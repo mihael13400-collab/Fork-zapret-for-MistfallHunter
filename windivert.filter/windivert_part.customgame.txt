@@ -1,0 +1,4 @@
+outbound and
+tcp.DstPort = 12001 and
+tcp.PayloadLength = 79 and
+tcp.Payload32[0] = 0x0000044d
