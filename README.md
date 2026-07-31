@@ -4,9 +4,9 @@
 
 Оригинальный проект: [bol-van/zapret](https://github.com/bol-van/zapret)
 
-Если вы не доверяете бинарным файлам из этого репозитория, вы можете сверить контрольные суммы файлов WinDivert.dll и winws.exe из официального репозитория zapret:
+Если вы не доверяете бинарным файлам из этого репозитория, вы можете сверить контрольные суммы файлов WinDivert64.sys, WinDivert.dll и winws.exe из официального репозитория zapret:
 
-[bol-van/zapret](https://github.com/bol-van/zapret)
+[bol-van/zapret](https://github.com/bol-van/zapret/releases#release-v72.12)
 
 
 ### Запуск
